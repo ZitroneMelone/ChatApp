@@ -10,8 +10,8 @@ namespace ChatApp.Elements
     {
 
 
-        private String User { get; set; }
-        private String Message {  get; set; }
+        public String User { get; set; }
+        public String Message {  get; set; }
 
         public ChatMessage(string user, string message)
         {
