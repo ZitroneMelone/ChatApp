@@ -52,5 +52,10 @@ namespace ChatApp
         {
             Panel.Width = 150;
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Panel.Width = 0;
+        }
     }
 }
