@@ -53,20 +53,26 @@
         
         <Grid Grid.Row="0" Background="Black" >
             <Button Margin="0,0,246,0" FontSize="20" Foreground="White" BorderBrush="{x:Null}" Background="{x:Null}" Click="Button_Click" >≡ㅤ</Button>
-            
+
             <Label Margin="54,0,-54,0" FontSize="20" Foreground="White">Messagix</Label>
         </Grid>
         
         <!-- Chat Messages Area -->
-        <ListView Name="ChatListView" Grid.Row="1">
+        <ListView Name="ChatListView" Grid.Row="1" SelectionChanged="ChatListView_SelectionChanged">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="User" DisplayMemberBinding="{Binding User}" Width="80"/>
                     <GridViewColumn Header="Message" DisplayMemberBinding="{Binding Message}" Width="200"/>
                 </GridView>
             </ListView.View>
+            <ListView.ItemContainerStyle>
+                <Style TargetType="{x:Type ListViewItem}" >
+                    <Setter Property="Background" Value="White"/>
+                    <Setter Property="Foreground" Value="Black"/>
+                </Style>
+            </ListView.ItemContainerStyle>
         </ListView>
-        
+
         <!-- Message Input Area -->
         <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="5">
             <TextBox Name="MessageTextBox" Width="200" Margin="0,0,5,0"/>
