@@ -26,3 +26,8 @@ C:\Users\kiyos\OneDrive\Рабочий стол\ChatApp\ChatApp\ChatApp\obj\Debu
 C:\Users\kiyos\OneDrive\Рабочий стол\ChatApp\ChatApp\ChatApp\obj\Debug\ChatApp.csproj.CoreCompileInputs.cache
 C:\Users\kiyos\OneDrive\Рабочий стол\ChatApp\ChatApp\ChatApp\obj\Debug\ChatApp.exe
 C:\Users\kiyos\OneDrive\Рабочий стол\ChatApp\ChatApp\ChatApp\obj\Debug\ChatApp.pdb
+C:\Users\kiyos\OneDrive\Рабочий стол\ChatApp\ChatApp\ChatApp\obj\Debug\ChatApp_MarkupCompile.lref
+C:\Users\kiyos\OneDrive\Рабочий стол\ChatApp\ChatApp\ChatApp\obj\Debug\LoginWindow.g.cs
+C:\Users\kiyos\OneDrive\Рабочий стол\ChatApp\ChatApp\ChatApp\obj\Debug\RegistrationWindow.g.cs
+C:\Users\kiyos\OneDrive\Рабочий стол\ChatApp\ChatApp\ChatApp\obj\Debug\LoginWindow.baml
+C:\Users\kiyos\OneDrive\Рабочий стол\ChatApp\ChatApp\ChatApp\obj\Debug\RegistrationWindow.baml

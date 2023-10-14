@@ -57,5 +57,12 @@ namespace ChatApp
         {
             Panel.Width = 0;
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            LoginWindow loginWindow = new LoginWindow();
+            loginWindow.Show();
+            this.Close();
+        }
     }
 }
