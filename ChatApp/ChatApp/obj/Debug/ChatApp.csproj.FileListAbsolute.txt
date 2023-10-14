@@ -1,0 +1,14 @@
+G:\VS\Projects\ChatApp\ChatApp\obj\Debug\ChatApp.csproj.AssemblyReference.cache
+G:\VS\Projects\ChatApp\ChatApp\obj\Debug\MainWindow.baml
+G:\VS\Projects\ChatApp\ChatApp\obj\Debug\MainWindow.g.cs
+G:\VS\Projects\ChatApp\ChatApp\obj\Debug\App.g.cs
+G:\VS\Projects\ChatApp\ChatApp\obj\Debug\ChatApp_MarkupCompile.cache
+G:\VS\Projects\ChatApp\ChatApp\obj\Debug\ChatApp.g.resources
+G:\VS\Projects\ChatApp\ChatApp\obj\Debug\ChatApp.Properties.Resources.resources
+G:\VS\Projects\ChatApp\ChatApp\obj\Debug\ChatApp.csproj.GenerateResource.cache
+G:\VS\Projects\ChatApp\ChatApp\obj\Debug\ChatApp.csproj.CoreCompileInputs.cache
+G:\VS\Projects\ChatApp\ChatApp\bin\Debug\ChatApp.exe.config
+G:\VS\Projects\ChatApp\ChatApp\bin\Debug\ChatApp.exe
+G:\VS\Projects\ChatApp\ChatApp\bin\Debug\ChatApp.pdb
+G:\VS\Projects\ChatApp\ChatApp\obj\Debug\ChatApp.exe
+G:\VS\Projects\ChatApp\ChatApp\obj\Debug\ChatApp.pdb
