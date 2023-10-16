@@ -1,0 +1,17 @@
+G:\VS\Projects\Test\ChatApp-main\ChatApp\TCPServer\bin\Debug\TCPServer.exe.config
+G:\VS\Projects\Test\ChatApp-main\ChatApp\TCPServer\bin\Debug\TCPServer.exe
+G:\VS\Projects\Test\ChatApp-main\ChatApp\TCPServer\bin\Debug\TCPServer.pdb
+G:\VS\Projects\Test\ChatApp-main\ChatApp\TCPServer\bin\Debug\SuperSimpleTcp.dll
+G:\VS\Projects\Test\ChatApp-main\ChatApp\TCPServer\obj\Debug\TCPServer.csproj.AssemblyReference.cache
+G:\VS\Projects\Test\ChatApp-main\ChatApp\TCPServer\obj\Debug\MainWindow.g.cs
+G:\VS\Projects\Test\ChatApp-main\ChatApp\TCPServer\obj\Debug\App.g.cs
+G:\VS\Projects\Test\ChatApp-main\ChatApp\TCPServer\obj\Debug\TCPServer_MarkupCompile.cache
+G:\VS\Projects\Test\ChatApp-main\ChatApp\TCPServer\obj\Debug\TCPServer_MarkupCompile.lref
+G:\VS\Projects\Test\ChatApp-main\ChatApp\TCPServer\obj\Debug\MainWindow.baml
+G:\VS\Projects\Test\ChatApp-main\ChatApp\TCPServer\obj\Debug\TCPServer.g.resources
+G:\VS\Projects\Test\ChatApp-main\ChatApp\TCPServer\obj\Debug\TCPServer.Properties.Resources.resources
+G:\VS\Projects\Test\ChatApp-main\ChatApp\TCPServer\obj\Debug\TCPServer.csproj.GenerateResource.cache
+G:\VS\Projects\Test\ChatApp-main\ChatApp\TCPServer\obj\Debug\TCPServer.csproj.CoreCompileInputs.cache
+G:\VS\Projects\Test\ChatApp-main\ChatApp\TCPServer\obj\Debug\TCPServer.csproj.CopyComplete
+G:\VS\Projects\Test\ChatApp-main\ChatApp\TCPServer\obj\Debug\TCPServer.exe
+G:\VS\Projects\Test\ChatApp-main\ChatApp\TCPServer\obj\Debug\TCPServer.pdb
