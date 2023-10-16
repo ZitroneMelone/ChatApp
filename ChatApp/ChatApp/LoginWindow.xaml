@@ -31,11 +31,11 @@
 
     <Grid Background="Black">
 
-        <Label Content="Username" HorizontalAlignment="Left" Margin="85,60,0,0" VerticalAlignment="Top"/>
+        <Label Content="Username" HorizontalAlignment="Left" Margin="81,60,0,0" VerticalAlignment="Top"/>
         <TextBox HorizontalAlignment="Center" Margin="0,90,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
 
 
-        <Label Content="Password" HorizontalAlignment="Left" Margin="85,128,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="81,128,0,0" VerticalAlignment="Top"/>
         <TextBox HorizontalAlignment="Center" Margin="0,158,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
 
         <Button Content="Login"  Click="Login_Click" HorizontalAlignment="Center" Margin="0,250,0,0" VerticalAlignment="Top" Width="120"/>

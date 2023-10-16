@@ -1,6 +1,7 @@
 ﻿using ChatApp.Elements;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,20 +14,37 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using Microsoft.Extensions.Configuration;
+using Npgsql;
+using Microsoft.Extensions.Configuration.Json;
+using System.Data;
 
 namespace ChatApp
 {
     public partial class MainWindow : Window
     {
-
+        
         public MainWindow()
         {
-            InitializeComponent(); 
+            InitializeComponent();
+
+
+           
         }
 
+
+        public static void Connection()
+        {
+            
+        }
         private void OnSendMessageClick(object sender, RoutedEventArgs e)
         {
+
+            
+
+
+           
+
             // Get the message from the TextBox
             string message = MessageTextBox.Text;
 
@@ -63,6 +81,11 @@ namespace ChatApp
             LoginWindow loginWindow = new LoginWindow();
             loginWindow.Show();
             this.Close();
+        }
+
+        private void ChatListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }

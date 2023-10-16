@@ -32,14 +32,14 @@
     <Grid Background="Black">
 
 
-        <Label Content="Phone number or email" HorizontalAlignment="Left" Margin="85,48,0,0" VerticalAlignment="Top"/>
+        <Label Content="Phone number or email" HorizontalAlignment="Center" Margin="0,48,0,0" VerticalAlignment="Top"/>
         <TextBox HorizontalAlignment="Center" Margin="0,78,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
 
-        <Label Content="Username" HorizontalAlignment="Left" Margin="85,108,0,0" VerticalAlignment="Top"/>
+        <Label Content="Username" HorizontalAlignment="Left" Margin="81,108,0,0" VerticalAlignment="Top"/>
         <TextBox HorizontalAlignment="Center" Margin="0,138,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
 
 
-        <Label Content="Password" HorizontalAlignment="Left" Margin="85,164,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="81,164,0,0" VerticalAlignment="Top"/>
         <TextBox HorizontalAlignment="Center" Margin="0,194,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
 
         <Button Content="Registration"  Click="Registration_Click" HorizontalAlignment="Center" Margin="0,250,0,0" VerticalAlignment="Top" Width="120"/>
