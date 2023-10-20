@@ -1,21 +1,9 @@
 ﻿using Microsoft.Extensions.Configuration;
-using Npgsql;
-using System;
-using System.Collections.Generic;
 using System.Data;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
-using Microsoft.Extensions.Configuration.Json;
+using Npgsql;
+using System;
 
 namespace ChatApp
 {
@@ -25,7 +13,7 @@ namespace ChatApp
     public partial class LoginWindow : Window
     {
         ConfigurationBuilder cBuilder = new ConfigurationBuilder();
-        NpgsqlConnection connection ;
+        NpgsqlConnection connection;
         public string connectionString;
         public LoginWindow()
         {
@@ -36,22 +24,29 @@ namespace ChatApp
         }
 
         //get connection string from jsconfig.json file
-        public void GetConnString(string ServerName)
+        public static string Get()
         {
-            cBuilder.SetBasePath(Directory.GetCurrentDirectory());
-            cBuilder.AddJsonFile("jsconfig.json");
+            var config = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("jsconfig.json")
+                .Build();
 
-            var config = cBuilder.Build();
-
-            connectionString = config.GetConnectionString(ServerName);
+            var connectionString = config.GetConnectionString("postgresql");
+            var uri = new Uri(connectionString);
+            var db = uri.AbsolutePath.Trim('/');
+            var user = uri.UserInfo.Split(':')[0];
+            var passwd = uri.UserInfo.Split(':')[1];
+            var port = uri.Port > 0 ? uri.Port : 5432;
+            var connStr = string.Format("Server={0};Database={1};User Id={2};Password={3};Port={4}",
+                uri.Host, db, user, passwd, port);
+            return connStr;
         }
 
 
         //connecting to the database when clicking a button
         private void Login_Click(object sender, RoutedEventArgs e)
         {
-
-            GetConnString("postgresql");
+            connectionString = Get();
             connection = new NpgsqlConnection(connectionString);
             connection.Open();
 

@@ -9,7 +9,6 @@
   ],
 
   "ConnectionStrings": {
-    "postgresql": "Host=localhost;Port=5432;Database=usersdb;Username=postgres;Password=1234"
+    "postgresql": "postgres://zzemlhcp:DXfBp2UCCahY5Oq3sPwIprpN9GRXeFwc@suleiman.db.elephantsql.com/zzemlhcp"
   }
-
 }
