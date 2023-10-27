@@ -56,7 +56,15 @@ namespace TCP
 
         private void Events_DataReceived(object sender, DataReceivedEventArgs e)
         {
-            txtInfo.Text += $"Server connected.{Environment.NewLine}";
+            Dispatcher.Invoke(() =>
+            {
+                byte[] receivedData = new byte[e.Data.Count];
+                Array.Copy(e.Data.Array, e.Data.Offset, receivedData, 0, e.Data.Count);
+
+                string receivedMessage = Encoding.UTF8.GetString(receivedData);
+
+                txtInfo.Text += receivedMessage;
+            });
         }
 
         protected override void OnInitialized(EventArgs e)

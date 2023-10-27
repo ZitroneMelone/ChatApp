@@ -1,0 +1,17 @@
+G:\VS\Projects\Try\ChatApp-main\ChatApp\TCPClient\bin\Debug\TCPClient.exe.config
+G:\VS\Projects\Try\ChatApp-main\ChatApp\TCPClient\bin\Debug\TCPClient.exe
+G:\VS\Projects\Try\ChatApp-main\ChatApp\TCPClient\bin\Debug\TCPClient.pdb
+G:\VS\Projects\Try\ChatApp-main\ChatApp\TCPClient\bin\Debug\SuperSimpleTcp.dll
+G:\VS\Projects\Try\ChatApp-main\ChatApp\TCPClient\obj\Debug\TCPClient.csproj.AssemblyReference.cache
+G:\VS\Projects\Try\ChatApp-main\ChatApp\TCPClient\obj\Debug\MainWindow.g.cs
+G:\VS\Projects\Try\ChatApp-main\ChatApp\TCPClient\obj\Debug\App.g.cs
+G:\VS\Projects\Try\ChatApp-main\ChatApp\TCPClient\obj\Debug\TCPClient_MarkupCompile.cache
+G:\VS\Projects\Try\ChatApp-main\ChatApp\TCPClient\obj\Debug\TCPClient_MarkupCompile.lref
+G:\VS\Projects\Try\ChatApp-main\ChatApp\TCPClient\obj\Debug\MainWindow.baml
+G:\VS\Projects\Try\ChatApp-main\ChatApp\TCPClient\obj\Debug\TCPClient.g.resources
+G:\VS\Projects\Try\ChatApp-main\ChatApp\TCPClient\obj\Debug\TCPClient.Properties.Resources.resources
+G:\VS\Projects\Try\ChatApp-main\ChatApp\TCPClient\obj\Debug\TCPClient.csproj.GenerateResource.cache
+G:\VS\Projects\Try\ChatApp-main\ChatApp\TCPClient\obj\Debug\TCPClient.csproj.CoreCompileInputs.cache
+G:\VS\Projects\Try\ChatApp-main\ChatApp\TCPClient\obj\Debug\TCPClient.csproj.CopyComplete
+G:\VS\Projects\Try\ChatApp-main\ChatApp\TCPClient\obj\Debug\TCPClient.exe
+G:\VS\Projects\Try\ChatApp-main\ChatApp\TCPClient\obj\Debug\TCPClient.pdb
